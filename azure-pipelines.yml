@@ -32,5 +32,5 @@ steps:
 
 - script: |
     pip install pytest pytest-azurepipelines
-    pytest
+    pytest --junit_family=xunit1
   displayName: 'pytest'
